@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectSchemaDefinitions xmlns="clr-namespace:Microsoft.Build.Framework.XamlTypes;assembly=Microsoft.Build.Framework">
+  <Rule Name="ReferencedPackages9705b7c2-f662-47e1-b1ac-33b67e5e9e47" PageTemplate="tool" DisplayName="Referenced Packages" SwitchPrefix="/" Order="1">
+    <Rule.Categories>
+      <Category Name="pcre" DisplayName="pcre" />
+    </Rule.Categories>
+    <Rule.DataSource>
+      <DataSource Persistence="ProjectFile" ItemType="" />
+    </Rule.DataSource>
+    <EnumProperty Name="UTFwidth-pcre" DisplayName="UTFwidth" Description="UTFwidth" Category="pcre">
+      <EnumValue Name="" DisplayName="utf8" />
+      <EnumValue Name="utf32" DisplayName="utf32" />
+      <EnumValue Name="utf16" DisplayName="utf16" />
+    </EnumProperty>
+    <EnumProperty Name="Linkage-pcre" DisplayName="Linkage" Description="Which version of the .lib file to link to this library" Category="pcre">
+      <EnumValue Name="" DisplayName="Dynamic Library (DLL)" />
+      <EnumValue Name="static" DisplayName="Static" />
+      <EnumValue Name="ltcg" DisplayName="Link Time Compiler Generation" />
+    </EnumProperty>
+  </Rule>
+</ProjectSchemaDefinitions>

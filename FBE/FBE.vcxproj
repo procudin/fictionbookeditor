@@ -135,8 +135,8 @@ link.exe /OUT:"$(SolutionDir)$(Configuration)\en-US\FBE.exe.mui" /DLL /NOENTRY /
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>Scintilla\include;extras;utils;wtl;./hunspell/src/hunspell;pcre;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>HUNSPELL_STATIC;_DEBUG;WIN32;_WINDOWS;UNICODE;STRICT;USE_PCRE;_ATL_TRACE_LEVEL=4;_CRT_SECURE_NO_WARNINGS;_WTL_CMDBAR_VISTA_MENUS=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Scintilla\include;extras;utils;wtl;./hunspell/src;../pcre/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>HUNSPELL_STATIC;_DEBUG;WIN32;_WINDOWS;UNICODE;STRICT;USE_PCRE;_ATL_TRACE_LEVEL=4;_CRT_SECURE_NO_WARNINGS;_WTL_CMDBAR_VISTA_MENUS=0;INCLUDE_DEPRECATED_FEATURES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <BufferSecurityCheck>true</BufferSecurityCheck>
@@ -163,9 +163,9 @@ link.exe /OUT:"$(SolutionDir)$(Configuration)\en-US\FBE.exe.mui" /DLL /NOENTRY /
     <Link>
       <RegisterOutput>false</RegisterOutput>
       <AdditionalDependencies>msxml6.lib;rpcrt4.lib;
-gdiplus.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+gdiplus.lib;opengl32.lib;glu32.lib;pcre8.lib;libhunspell.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\hunspell\src\win_api\Release\libhunspell;.\pcre;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>.\\hunspell\msvc\Debug\libhunspell;..\pcre\lib\v100\Win32\Debug\dynamic\utf8\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>

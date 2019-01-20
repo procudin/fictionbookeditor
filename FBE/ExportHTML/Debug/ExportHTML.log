@@ -1,0 +1,90 @@
+﻿  Processing ..\fbe.idl
+  fbe.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.idl
+  oaidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.idl
+  objidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwn.idl
+  unknwn.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.idl
+  wtypes.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypesbase.idl
+  wtypesbase.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+  basetsd.h
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+  guiddef.h
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\ocidl.idl
+  ocidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oleidl.idl
+  oleidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\servprov.idl
+  servprov.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\urlmon.idl
+  urlmon.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\msxml.idl
+  msxml.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.acf
+  oaidl.acf
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\ocidl.acf
+  ocidl.acf
+  Processing .\ExportHTML.idl
+  ExportHTML.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.idl
+  oaidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.idl
+  objidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwn.idl
+  unknwn.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.idl
+  wtypes.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypesbase.idl
+  wtypesbase.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+  basetsd.h
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+  guiddef.h
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\ocidl.idl
+  ocidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oleidl.idl
+  oleidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\servprov.idl
+  servprov.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\urlmon.idl
+  urlmon.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\msxml.idl
+  msxml.idl
+  Processing ..\fbe.idl
+  fbe.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.acf
+  oaidl.acf
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\ocidl.acf
+  ocidl.acf
+  StdAfx.cpp
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\wtl\atlgdi.h(515): warning C4127: условное выражение является константой
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\wtl\atlgdi.h(515): note: Попробуйте использовать инструкцию "if constexpr"
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\wtl\atlgdi.h(514): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\wtl\atldlgs.h(5172): note: выполняется компиляция ссылки на экземпляр шаблон функции "WTL::CFontT<false>::~CFontT(void)"
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\wtl\atlgdi.h(1208): note: выполняется компиляция ссылки на экземпляр шаблон класс "WTL::CFontT<false>"
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\wtl\atlgdi.h(3140): note: выполняется компиляция ссылки на экземпляр шаблон класс "WTL::CDCT<t_bManaged>"
+  dllmain.cpp
+  ExportHTML.cpp
+  ExportHTMLPlugin.cpp
+d:\fbe\fbe\exporthtml\customfilesavedialog.h(34): warning C4100: lParam: неиспользованный формальный параметр
+d:\fbe\fbe\exporthtml\customfilesavedialog.h(34): warning C4100: wParam: неиспользованный формальный параметр
+d:\fbe\fbe\exporthtml\customfilesavedialog.h(34): warning C4100: msg: неиспользованный формальный параметр
+d:\fbe\fbe\exporthtml\customfilesavedialog.h(49): warning C4100: bHandled: неиспользованный формальный параметр
+d:\fbe\fbe\exporthtml\customfilesavedialog.h(49): warning C4100: lParam: неиспользованный формальный параметр
+d:\fbe\fbe\exporthtml\customfilesavedialog.h(49): warning C4100: wParam: неиспользованный формальный параметр
+d:\fbe\fbe\exporthtml\customfilesavedialog.h(49): warning C4100: uMsg: неиспользованный формальный параметр
+d:\fbe\fbe\exporthtml\customfilesavedialog.h(82): warning C4100: on: неиспользованный формальный параметр
+d:\fbe\fbe\exporthtml\exporthtmlplugin.cpp(55): warning C4456: объявление "strMessage" скрывает предыдущее локальное объявление
+  d:\fbe\fbe\exporthtml\exporthtmlplugin.cpp(10): note:  см. объявление "strMessage"
+d:\fbe\fbe\exporthtml\exporthtmlplugin.cpp(114): warning C4477: "_snprintf_s": в строке форматирования "%08X" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "time_t"
+  d:\fbe\fbe\exporthtml\exporthtmlplugin.cpp(114): note: рекомендуется использовать "%llX" в строке форматирования
+  d:\fbe\fbe\exporthtml\exporthtmlplugin.cpp(114): note: рекомендуется использовать "%I64X" в строке форматирования
+  Utils.cpp
+  Создание кода...
+  ExportHTML_i.c
+     Создается библиотека D:\FBE\Debug\ExportHTML.lib и объект D:\FBE\Debug\ExportHTML.exp
+  ExportHTML.vcxproj -> D:\FBE\Debug\ExportHTML.dll
